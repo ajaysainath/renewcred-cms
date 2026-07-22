@@ -117,7 +117,7 @@ renewcred-cms/
 ## Clone Repository
 
 ```bash
-git clone <your-github-repository>
+git clone https://github.com/ajaysainath/renewcred-cms.git
 ```
 
 ---
