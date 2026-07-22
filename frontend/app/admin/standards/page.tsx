@@ -62,7 +62,7 @@ export default function StandardsPage() {
 
       if (isEditing) {
         await axios.put(
-          `http://localhost:5000/api/standards/${editingId}`,
+          `${process.env.NEXT_PUBLIC_API_URL}/api/standards/${editingId}`,
           {
             title,
             slug,
@@ -77,7 +77,7 @@ export default function StandardsPage() {
         );
       } else {
         await axios.post(
-          "http://localhost:5000/api/standards",
+          `${process.env.NEXT_PUBLIC_API_URL}/api/standards`,
           {
             title,
             slug,
@@ -121,7 +121,7 @@ export default function StandardsPage() {
       const token = getToken();
 
       await axios.post(
-        `http://localhost:5000/api/standards/${selectedStandard.slug}/version`,
+        `${process.env.NEXT_PUBLIC_API_URL}/api/standards/${selectedStandard.slug}/version`,
         {
           version,
           releaseDate,
@@ -161,7 +161,7 @@ async function deleteSection(
             const token = getToken();
 
             await axios.delete(
-            `http://localhost:5000/api/standards/${standard.slug}/version/${version._id}/section/${sectionId}`,
+            `${process.env.NEXT_PUBLIC_API_URL}/api/standards/${standard.slug}/version/${version._id}/section/${sectionId}`,
             {
                 headers: {
                 Authorization: `Bearer ${token}`,
@@ -189,7 +189,7 @@ async function deleteSection(
     const token = getToken();
 
     await axios.delete(
-      `http://localhost:5000/api/standards/${id}`,
+      `${process.env.NEXT_PUBLIC_API_URL}/api/standards/${id}`,
       {
         headers: {
           Authorization: `Bearer ${token}`,
@@ -214,7 +214,7 @@ async function saveSection() {
 
       if (isEditingSection) {
         await axios.put(
-          `http://localhost:5000/api/standards/${selectedStandard.slug}/version/${selectedVersion._id}/section/${editingSectionId}`,
+          `${process.env.NEXT_PUBLIC_API_URL}/api/standards/${selectedStandard.slug}/version/${selectedVersion._id}/section/${editingSectionId}`,
           {
             title: sectionTitle,
             content: sectionContent,
