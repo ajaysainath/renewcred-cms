@@ -228,7 +228,7 @@ async function saveSection() {
         );
       } else {
         await axios.post(
-          `http://localhost:5000/api/standards/${selectedStandard.slug}/version/${selectedVersion._id}/section`,
+          `${process.env.NEXT_PUBLIC_API_URL}/api/standards/${selectedStandard.slug}/version/${selectedVersion._id}/section`,
           {
             title: sectionTitle,
             content: sectionContent,
