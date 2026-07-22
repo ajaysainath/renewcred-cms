@@ -227,21 +227,93 @@ PUT
 
 DELETE
 ```
+# 🚀 Live Demo
+
+## Public Website
+
+https://renewcred-cms-xi.vercel.app
+
+## Admin Portal
+
+https://renewcred-cms-xi.vercel.app/login
+
+## Backend API
+
+https://renewcred-backend-7kwj.onrender.com/api/health
+
+# 🔑 Demo Credentials
+
+Email: ajay@example.com
+
+Password: Password123
 
 ---
 
-# 📸 Screenshots
+# 📸 Application Screenshots
 
-Add screenshots of:
+## 🌐 Public Website
 
-- Login
-- Dashboard
-- Standards CMS
-- Rich Text Editor
-- Documentation Page
-- Public Website
+### Homepage
+
+![Homepage-Header](Screenshots/rncs-header.png)
+![Homepage-details](Screenshots/rncs-standards.png)
+![Homepage-Footer](Screenshots/rncs-footer.png)
 
 ---
+
+### Documentation Page
+
+![Documentation-page](Screenshots/documentation-page.png)
+![Documentation-details](Screenshots/document-details.png)
+![Documentation-search](Screenshots/search-check.png)
+![Documentation-sidebar](Screenshots/sidebar-check.png)
+![Documentation-version](Screenshots/version-check.png)
+
+---
+
+## 🔐 Admin CMS
+
+### Login Page
+
+![Login](Screenshots/login.png)
+
+---
+
+### Dashboard
+
+![Dashboard](Screenshots/Dashboard.png)
+
+---
+
+### Standards Management
+
+![Standards Admin-1](screenshots/Standards.1.png)
+![Standards Admin-2](screenshots/standards.2.png)
+![Standards Admin-3](screenshots/standards.3.png)
+![Standards Admin-4](screenshots/standards.4.png)
+
+---
+
+### Versions Management
+
+![Versions](screenshots/Createversion.png)
+
+---
+
+### Sections Management
+
+![Sections](screenshots/createsection.png)
+![Standards](screenshots/createstandards.png)
+![Sections](screenshots/deletesection.png)
+![Sections](screenshots/deletestandards.png)
+
+
+---
+
+### Rich Text Editor
+
+![Editor](screenshots/editsection.png)
+![Editor](screenshots/EditStandard.png)
 
 # 🔒 Authentication Flow
 
