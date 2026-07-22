@@ -287,25 +287,25 @@ Password: Password123
 
 ### Standards Management
 
-![Standards Admin-1](screenshots/Standards.1.png)
-![Standards Admin-2](screenshots/standards.2.png)
-![Standards Admin-3](screenshots/standards.3.png)
-![Standards Admin-4](screenshots/standards.4.png)
+![Standards Admin-1](Screenshots/Standards.1.png)
+![Standards Admin-2](Screenshots/standards.2.png)
+![Standards Admin-3](Screenshots/standards.3.png)
+![Standards Admin-4](Screenshots/standards.4.png)
 
 ---
 
 ### Versions Management
 
-![Versions](screenshots/Createversion.png)
+![Versions](Screenshots/Createversion.png)
 
 ---
 
 ### Sections Management
 
-![Sections](screenshots/createsection.png)
-![Standards](screenshots/createstandards.png)
-![Sections](screenshots/deletesection.png)
-![Sections](screenshots/deletestandards.png)
+![Sections](Screenshots/createsection.png)
+![Standards](Screenshots/createstandards.png)
+![Sections](Screenshots/deletesection.png)
+![Sections](Screenshots/deletestandards.png)
 
 
 ---
