@@ -8,7 +8,11 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: [
+      "http://localhost:3000",
+      "https://renewcred-q7ok6aozh-ajaysainaths-projects.vercel.app",
+      "https://renewcred-cms-xi.vercel.app",
+    ],
   })
 );
 app.use(express.json());
