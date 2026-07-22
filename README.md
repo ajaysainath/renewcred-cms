@@ -303,7 +303,7 @@ Password: Password123
 ### Sections Management
 
 ![Sections](Screenshots/createsection.png)
-![Standards](Screenshots/createstandards.png)
+![Standards](Screenshots/Createstandards.png)
 ![Sections](Screenshots/deletesection.png)
 ![Sections](Screenshots/deletestandards.png)
 
@@ -312,8 +312,8 @@ Password: Password123
 
 ### Rich Text Editor
 
-![Editor](screenshots/editsection.png)
-![Editor](screenshots/EditStandard.png)
+![Editor](Screenshots/editsection.png)
+![Editor](Screenshots/EditStandard.png)
 
 # 🔒 Authentication Flow
 
