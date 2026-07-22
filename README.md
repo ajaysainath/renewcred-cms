@@ -122,6 +122,14 @@ git clone https://github.com/ajaysainath/renewcred-cms.git
 
 ---
 
+## 🔗 Repository
+
+GitHub Repository:
+
+https://github.com/ajaysainath/renewcred-cms
+
+---
+
 ## Backend
 
 ```bash
@@ -227,6 +235,7 @@ PUT
 
 DELETE
 ```
+---
 # 🚀 Live Demo
 
 ## Public Website
@@ -239,7 +248,13 @@ https://renewcred-cms-xi.vercel.app/login
 
 ## Backend API
 
+Health Endpoint
+
 https://renewcred-backend-7kwj.onrender.com/api/health
+
+REST Base URL
+
+https://renewcred-backend-7kwj.onrender.com/api
 
 # 🔑 Demo Credentials
 
@@ -369,14 +384,35 @@ Next.js Frontend
 
 # 📄 Assignment Highlights
 
-- Production-ready CMS
-- Dynamic Content Rendering
-- Rich Text Editing
-- Version Management
-- JWT Authentication
-- Responsive Admin Dashboard
-- MongoDB Integration
-- Public Website Integration
+- Full-stack CMS with JWT Authentication
+- Dynamic Public Documentation Website
+- Admin Dashboard for Content Management
+- RESTful API Architecture
+- MongoDB Atlas Integration
+- Rich Text Editing using TipTap
+- Versioned Documentation Support
+- Responsive UI using Tailwind CSS
+- Cloud Deployment (Vercel + Render)
+
+  ---
+
+# 🏆 Key Functionalities
+
+✔ Authentication using JWT
+
+✔ CRUD Operations for Standards
+
+✔ CRUD Operations for Versions
+
+✔ CRUD Operations for Documentation Sections
+
+✔ Rich Text Editing
+
+✔ Dynamic Public Website
+
+✔ Protected Admin Routes
+
+✔ Cloud Deployment
 
 ---
 
@@ -387,3 +423,5 @@ Next.js Frontend
 B.Tech – Computer Science & Engineering (AI & ML)
 
 Frontend Engineering Assignment Submission
+
+⭐ If you found this project interesting, feel free to explore the live demo and GitHub repository.
