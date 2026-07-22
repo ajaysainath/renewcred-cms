@@ -313,7 +313,7 @@ Password: Password123
 ### Rich Text Editor
 
 ![Editor](Screenshots/editsection.png)
-![Editor](Screenshots/EditStandard.png)
+![Editor](Screenshots/Editstandard.png)
 
 # 🔒 Authentication Flow
 
